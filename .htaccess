@@ -2,6 +2,6 @@ RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.html [NC,L]
 AuthUserFile /path/to/htpasswd/file/.htpasswd
-AuthName "Name of Page"
+AuthName "Secrets!"
 AuthType Basic
 require valid-user
