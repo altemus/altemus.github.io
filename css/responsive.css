@@ -312,6 +312,9 @@
         padding-left: 54px;
         padding-top: 5px;
     }
+    .quote {
+        overflow: auto;
+    }
     .carousel-inner {
         height: 345px;
     }
