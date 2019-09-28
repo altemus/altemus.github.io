@@ -1,6 +1,4 @@
-.name b {
-    font-weight: 550;
-}
+
 @media screen and (min-width: 1025px) and (max-width: 1280px){
     .product_slider .item{
         height:auto !important;
