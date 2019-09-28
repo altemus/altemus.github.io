@@ -43,19 +43,12 @@
         margin-left: 0;
         padding: 0;
     }
-    .browse-cars-wrap {
+    .browse-cars-wrap .quote {
         background: rgba(0, 0, 0, 0) url("../images/white_quote.png") no-repeat scroll 1px 0 / 44px 29px;
         font-size: 13.5px;
         line-height: 23px;
         padding-left: 50px;
         padding-top: 4px;
-    }
-    .quote {
-        font-size: 13.5px;
-        line-height: 23px;
-        padding-left: 50px;
-        padding-top: 4px;
-        padding-bottom: 25px
     }
     .AUDI-8 {
         padding-left: 10px;
@@ -1175,9 +1168,17 @@
         padding-top: 5px;
         text-align: left;
     }
-    .browse-cars-wrap .quote, .testimonial-wrap .quote {
+    .browse-cars-wrap .quote {
         background: rgba(0, 0, 0, 0) url("../images/white_quote.png") no-repeat scroll 5px 0 / 44px 29px;
         font-size: 16px;
+        margin-bottom: 25px;
+        margin-top: 20px;
+        padding-left: 58px;
+        padding-top: 5px;
+        text-align: left;
+    }
+     .testimonial-wrap .quote {
+         font-size: 16px;
         margin-bottom: 25px;
         margin-top: 20px;
         padding-left: 58px;
