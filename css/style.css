@@ -890,7 +890,6 @@ header {
     text-transform: uppercase;
 }
 .testimonial-wrap .quote {
-    background: rgba(0, 0, 0, 0) url("../images/white_quote.png") no-repeat scroll 10px 0 / 54px 39px;
     color: #fff;
     font-family: "NotoSans_R";
     font-size: 16px;
@@ -931,6 +930,7 @@ header {
     font-family: "NotoSans_R";
     font-size: 15px;
     line-height: 23.2px;
+    max-height: 235px;
     margin-bottom: 39px;
     padding-left: 83px;
     padding-top: 35px;
