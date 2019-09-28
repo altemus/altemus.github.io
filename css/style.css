@@ -75,14 +75,14 @@
     padding: 0;
     outline: none;
 }
-.fadeName {
-  background: linear-gradient(80deg, black, #d67324, orange);
+.fadeOrange {
+  background: linear-gradient(80deg, black, black, #d67324, #d67324, orange, orange);
   background-clip: text;
   text-fill-color: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-size: 200% 100%;
-  animation: logofade 5s linear infinite;
+  animation: logofade 8s linear infinite;
 }
 
 @keyframes logofade {
