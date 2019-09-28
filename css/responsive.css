@@ -298,7 +298,6 @@
     .testimonial-wrap {
         height: auto;
         padding: 50px 0;
-        overflow: scroll;
     }
     .testimonial-wrap h5.heading {
         font-size: 13px;
