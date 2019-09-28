@@ -1,21 +1,21 @@
 /* width */
 ::-webkit-scrollbar {
-  width: 12px;
+  width:8px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  background: #777;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #888;
+  background: #fe8729;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  background: #d67324;
 }
 
 .item-desc {
