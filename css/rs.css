@@ -19,7 +19,8 @@
     min-height: 350px;
 }
 .contentcall{
-    display: inline-block;
+    position: absolute;
+    right: 25%;
     height:97px;
     width: 40%;
     margin-top: 17%;
