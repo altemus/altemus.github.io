@@ -1,10 +1,13 @@
 // This is the code for the global header across all pages. It's been done this way to make less work for me.
 // It allows me to update the header across the website by updating one file.
 //
-// Call this file to the page by placing this line of code in the <head>:
+// This file is the script for the header. Call this file to the page by placing this line of code in the <head>:
 // <script type="text/javascript" src="js/head.js"></script>
 //
-// 
+//
+// For the actual header, place this line of code in the very beginning of the <body> tag:
+// <div include-html="global/header.html"></div><script>headerHTML();</script>
+// The div calls the document, and the script places it on the page.
 
 function headerHTML() {
   var z, i, elmnt, file, xhttp;
