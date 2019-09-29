@@ -1,6 +1,7 @@
 .container{
     padding-left:0px;
     padding-right:0px;
+    text-align: center;
 }
 .banner-bg1 {
     background: url("../images/Bg_2.png") no-repeat center center;
@@ -24,6 +25,7 @@
     color: #fff;
     font-weight: 600;
     text-align: center;
+    display: inline-block
     background:rgba(7, 13, 16, 0.5);
     border:#fff;
     border: 3px solid #fff;
