@@ -1,3 +1,4 @@
+document.write("
 <header>
     <div class="container-fluid">
         <div class="row">
@@ -50,3 +51,4 @@
                 </div>
             </div>
         </header>
+");
