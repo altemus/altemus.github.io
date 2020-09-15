@@ -1,0 +1,74 @@
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-bottom: 1px solid #e7e7e7;
+    background-color: white;
+}
+
+.right {
+    float: right;
+    font-size: 20px;
+}
+
+.navLi a {
+    display: block;
+    color: black;
+    font-family: inherit;
+    font-weight: lighter;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    text-decoration: none;
+    
+}
+
+.navLi a:hover:not(.active) {
+    background-color: inherit;
+    cursor: pointer;
+}
+
+.navLi a.active {
+    color: black;
+    font-weight: 900;
+    background-color: inherit;
+}
+body  {
+    background-image: url(../source/index/wall.jpg);
+}
+.dot {
+    height: 2px;
+    width: 2px;
+    top: 0;
+    background-color: gray;
+    border-radius: 80%;
+    display: inline-block;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 4px;
+   
+}
+.rightMostListItem {
+	margin-right: 8px;
+}
+.navBarTitle {
+	float: left;
+	font-family: Roboto, sans-serif;
+    margin-left: 8px;
+    font-weight: 900;
+    font-size: 25px;
+	cursor: default;
+}
+#mainBGRND {
+	background-color: white;
+	margin: -7px 55px 20px;
+	border-radius: 2%;
+	min-height: 800px;
+}
+#mainFGRND {
+	padding: 5px;
+}
+#pageHead {
+	position: sticky;
+	top: 0;
+}

@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+  <title> Drop Down Menus - Sirtowsalot's Website </title>
+  <link rel="stylesheet" href="../../source/school/dropdownmenus.css">
+  <link rel="icon" href="../../ico/bird.png" type="image/x-icon">
+  <link rel="stylesheet" href="../../source/buttons.css">
+  <script type="text/javascript" src="../../source/buttons.js"></script>
+  <button type = "button" onClick="homeFunction()" id="homeBtn" title="Sends you to the homepage">Home</button>
+  <button onclick="topFunction()" id="pgupBtn" title="Sends you to the top of this page">Go to top</button>
+</head>
+<body>
+<form>
+  <p>What is your favourite colour?</p>
+  <select>
+    <option value="" disabled selected hidden>Select an option...</option>
+    <option value="red">Red</option>
+    <option value="green">Green</option>
+    <option value="blue">Blue</option>
+    <option value="yellow">Yellow</option>
+    <option value="other">Other</options>
+  </select>
+  <p>List other colours that you like in the space provided below.</p>
+  <textarea rows="5" cols="50" placeholder="Enter text here..."></textarea>
+  <p>What is your favourite sports team?</p>
+  <select>
+    <option value="" disabled selected hidden>Select an option...</option>
+    <option value="red">Patriots</option>
+    <option value="green">Patriots</option>
+    <option value="blue">Patriots</option>
+    <option value="yellow">Patriots</option>
+    <option value="other" disabled>Eagles</options>
+  </select>
+  <p>List other Sports Teams that you like in the space provided below. (NO EAGLES)</p>
+  <textarea rows="5" cols="50" placeholder="Enter text here..."></textarea>
+  <p>What is thy age?</p>
+  <select>
+    <option value="" disabled selected hidden>Select an option...</option>
+    <option value="nine">9</option>
+    <option value="ten">10</option>
+    <option value="eleven">11</option>
+    <option value="twelve">12</option>
+    <option value="thirteen">13</options>
+    <option value="fourteen">14</options>
+    <option value="fifteen">15</options>
+    <option value="sixteen">16</options>
+    <option value="ageless">Other</option>
+  </select><br>
+  <p>Which gender does thee identify as?</p>
+  <select required>
+    <option value="" disabled selected hidden>Select an option...</option>
+    <option value="male">Male</option>
+    <option value="female">Female</option>
+	<option value="custom" disabled>Other</option>
+  </select><br>
+  <p>Any questions or comments?</p>
+  <textarea rows="5" cols="50" placeholder="Enter text here or leave blank if no response is desired"></textarea>
+  <input type="submit" value="Submit" style="float: right;">
+</form>
+</body>
+</html>

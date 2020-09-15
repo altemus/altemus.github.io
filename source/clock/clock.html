@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<script src="jquery.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<style>
+.background {
+	width: 100%;
+	height: 150px;
+	vertical-align: middle;
+}
+
+#hex {
+	color: #99AAB5;
+	font-family: 'Pacifico';
+	text-align: center;
+	font-size: 200%;
+	display: block;
+	min-width: 200px;
+	font-weight: 100;
+}
+
+#what {
+	color: rgba(255, 255, 255, 0.90);
+	font-family: 'Lato', Helvetica, Arial, sans-serif;
+	display: block;
+	font-size: 0.9em;
+	position: absolute;
+	bottom: 0px;
+	left: 10px;
+	padding-right: 10px;
+	font-weight: 300;
+}
+
+#what a {
+	color: inherit;
+}
+
+#question, #tweet {
+	text-decoration: none;
+}
+
+.absolute-center {
+	/*width: 50%;*/
+  	margin: auto;
+  	position: absolute;
+  	top: 50%; left: 50%;
+  	-webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+}
+</style>
+</head>
+<body>
+<div class="background">
+<div class="absolute-center">
+<p id="hex"></p>
+</div>
+</div>
+</body>
+<script>
+function refreshData()
+{
+    x = 1;  // x = seconds
+ 	var d = new Date()
+ 	var h = d.getHours();
+ 	var m = d.getMinutes();
+ 	var s = d.getSeconds();
+ 	
+ 	if (h<=9) {h = '0'+h};
+ 	if (m<=9) {m = '0'+m};
+	if (s<=9) {s = '0'+s};
+	
+ 	var	color = '#'+h+m+s;
+ 	
+    $("div.background").css("background-color", color );
+    $("p#hex").text(color);
+     
+    setTimeout(refreshData, x*1000);
+}
+  
+refreshData(); // execute function
+</script>
+<!--- The MIT License (MIT)
+
+Copyright (c) 2014 Jacopo Colò
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. --->
+</html>

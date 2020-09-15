@@ -1,0 +1,171 @@
+<!doctype html>
+<html>
+<head>
+	<link rel="icon" href="/ico/letterS.ico" type="image/x-icon">
+	<title> Sirtowsalot's Website </title>
+	<link rel="stylesheet" href="source/index/buttons_index.css">
+	<script type="text/javascript" src="source/index/buttons_index.js"></script>
+	<button onclick="topFunction()" id="pgupBtn" title="Sends you to the top of this page">Go to top</button>
+	<link rel="stylesheet" href="source/index/main-css.css">
+</head>
+<body>
+<div id="mainBGRND">
+	<div id="pageHead">
+		<div> 
+			<ul class="nav nav-tabs" id="myTab">
+				<li class="right navLi"><a class="tablinks rightMostListItem" onclick="tabBar(event, 'Sitemap')">Sitemap</a></li>
+				<li class="right navLi"><a class="tablinks" onclick="tabBar(event, 'Other')">Other<span class="dot"></span></a></li>
+				<li class="right navLi"><a class="tablinks" onclick="tabBar(event, 'About')">About This Page<span class="dot"></span></a></li>
+				<li class="right navLi active"><a class="tablinks" id="defaultHome" onclick="tabBar(event, 'Home')">Home<span class="dot"></span></a></li>
+				<li class="navLi navBarTitle"><a class="navBarTitle" onclick="window.location.href='https://sirtowsalot.github.io/'"><img src="/ico/letterS.png" width="30" height="30"></a></li>
+				<li class="navLi navBarTitle"><a class="navBarTitle" onclick="window.location.href='https://sirtowsalot.github.io/'">Sirtowsalot's Website</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="tab-content" id="mainFGRND">
+		<div id="Home" class="tabcontent tab-pane active">
+			<div id="Clock">
+				<center><iframe src="source/clock/clock.html" scrolling="no"></iframe>
+				<script>iFrameResize({log:true})</script></center>
+				<h2> #HHMMSS; Hour, Hour, Minute, Minute, Second, Second </h2>
+			</div
+			<hr class="head">
+			<h2>This is a simple website for anything I feel I may want to archive, or store. Feel free to have a look.</h2>
+		</div>
+		<div id="Sitemap" class="tabcontent tab-pane">
+			<ul class="map-title" style="list-style-type:none">
+				<li>Sub-sites:</li>
+				<ul class="map-body" style="list-style-type:disc">
+					<li>School Work</li>
+					<ol type="1">
+						<li><a href="school/8th/htmlquiz">HTML Quiz</a></li>
+						<li><a href="school/8th/recipe">Recipe</a></li>
+						<li><a href="school/8th/form">Form</a></li>
+						<li><a href="school/8th/dropdownmenus">Drop-down Menus</a></li>
+						<li><a href="school/7th/scrugrams/gingerale">Scrugram's Gingerale</a></li>
+						<ul class="map-body" type="I">
+							<li><a href="school/7th/scrugrams/sub/aboutus">About Us</a></li>
+							<li><a href="school/7th/scrugrams/sub/products">Products</a></li>
+							<li><a href="school/7th/scrugrams/sub/buynow">Buy Now ("Thank you for purchasing" page)</a></li>
+						</ul>
+						<li><a href="school/7th/larz_example">Larzalere's Example "Eagles" Website</a></li>
+						<li><a href="school/7th/tours">Tours</a></li>
+						<li><a href="school/7th/PaPARKS">PA. PARKS</a></li>
+					</ol>
+					<li>Games</li>
+					<ol type="1">
+						<li><a href="games/tetris">Tetris</a></li>
+					</ol>
+				</ul>
+				<li>UNFINISHED DIRECTORIES</li>
+				<ul class="map-body" style="list-style-type:disc">
+					<li>Diesel</li>
+					<ol type="1">
+						<li><a href="diesel/smokey">Smokey</a></li>
+					</ol>
+					<li> Intriguing Disasters</li>
+					<ol type="1">
+						<li><a href="disasters">Disasters HUB</a></li>
+					</ol>
+				</ul>
+			</ul>
+			<ul class="map-title" style="list-style-type:none">
+				<li>Other Stuff:</li>
+				<ul class="map-body" style="list-style-type:disc">
+					<li><a href="personal/hamilton">Hamilton Musical</a></li>
+					<li><a href="source">Github Source</a></li>
+					<li><a target="blank_" href="file:///C:/Users/Altemus/Documents/GitHub/Sirtowsalot.github.io/index.html">Link for my laptop. This will be a 404 page for you.</a></li>
+				</ul>
+			</ul>
+		</div> 
+		<div id="About" class="tabcontent tab-pane">
+			<h3>You don't fucking need to know anything about me or my sexy fucking website. <br>Thank You.</h3>
+		</div>
+		<div id="Other" class="tabcontent">
+			<h3>Well hello there! This is a good time to tell you about the lack of a secret on this page! It's totally not a button hidden on this page as a background color! pffft. Nope. You should just click back to where you came from!</h3>
+		</div>
+		<script>
+			function tabBar(evt, Name) {
+				var i, tabcontent, tablinks;
+					tabcontent = document.getElementsByClassName("tabcontent");
+				for (i = 0; i < tabcontent.length; i++) {
+					tabcontent[i].style.display = "none";
+				}
+				tablinks = document.getElementsByClassName("tablinks");
+				for (i = 0; i < tablinks.length; i++) {
+				tablinks[i].className = tablinks[i].className.replace(" active", "");
+				}
+				document.getElementById(Name).style.display = "block";
+				evt.currentTarget.className += " active";
+			}
+				document.getElementById("defaultHome").click();
+			
+		</script>
+		<br><br><br>
+		<div class="footer">
+			<table id="footer" align="center">
+				<tr class="caption">
+					<td><button class="collapsible">Contact Us</button>
+					<div class="content">
+						<p><b>Phone:</b> Yeah.. You're not getting that.</p>
+						<p><b>Address:</b> Yeah.. That either.</p>
+						<p><b>Email:</b> mrtowsson@gmail.com</p>
+					</div>
+					</td>
+
+					<td><button class="collapsible">Legalities</button>
+					<div class="content">
+						<p class="legalinfo"><a href="legal/termsofuse">Terms Of Use</a></p>
+						<p class="legalinfo"><a href="legal/privacypolicy">Privacy Policy</a></p>
+						<p class="legalinfo"><a href="legal/disclaimer">Disclaimer</a></p>
+					</div>
+					</td>
+
+					<td><button class="collapsible">Our Box of Fun Things...</button>
+					<div class="content">
+						<p><a href="games/tetris">Tetris</a></p>
+						<p><a href="personal/cats">Random Cat Picture</a></p>
+						<p><a href="https://www.ebay.com/sch/i.html?_odkw=Clorox+Bleach&_osacat=0&_from=R40&_trksid=p2045573.m570.l1313.TR5.TRC1.A0.H0.TRS0&_nkw=Clorox+Bleach&_sacat=0">Bottle Of Bleach For Sale Near You</a></p>
+					</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</div>
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("activefooter");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+<script>
+$('#myTab a').click(function (e) {
+    e.preventDefault();
+    $(this).tab('show');
+});
+
+// store the currently selected tab in the hash value
+$("ul.nav-tabs > li > a").on("shown.bs.tab", function (e) {
+    var id = $(e.target).attr("href").substr(1);
+    $.cookie('activeTab', id);
+});
+
+    // on load of the page: switch to the currently selected tab
+    var hash = $.cookie('activeTab');
+    if (hash != null) {
+        $('#myTab a[href="#' + hash + '"]').tab('show');
+    }
+</script>
+</body>
+</html>

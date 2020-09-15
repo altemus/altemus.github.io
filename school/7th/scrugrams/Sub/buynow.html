@@ -1,0 +1,33 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="icon" href="../../../ico/bird.png" type="image/x-icon">
+<link rel="stylesheet" href="buynow.css">
+<title>Checkout - Scrugrams Gingerale</title>
+<script type="text/javascript">
+setTimeout(
+function ( )
+{
+  self.close();
+}, 15000 );
+</script>
+<head>
+<body>
+<center><img src="../Images/logo/logo.png" style="width:375px;height:150px;border:0;"></center>
+<br>
+<br>
+<br>
+<center><img src="../Images/purchased.png"></center>
+<center><h2><i>(It's not like you will get it though... Heck! We didn't even ask for your address or credit card!)</i></h2></center>
+<center><h3> This page will automatically close in <span id="countdowntimer">15 </span> Seconds</h3></center>
+<script type="text/javascript">
+    var timeleft = 15;
+    var downloadTimer = setInterval(function(){
+    timeleft--;
+    document.getElementById("countdowntimer").textContent = timeleft;
+    if(timeleft <= 0)
+        clearInterval(downloadTimer);
+    },1000);
+</script>
+</body>
+</html>
