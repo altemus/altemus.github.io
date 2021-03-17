@@ -1,0 +1,699 @@
+.container{
+    padding-left:0px;
+    padding-right:0px;
+    text-align: center;
+}
+.banner-bg1 {
+    background: url("../images/Bg_2.png") no-repeat center center;
+    background-size: cover;
+    min-height: 350px;
+}
+.banner-crash {
+    background: url("../images/crash_banner.jpg") no-repeat center center;
+    background-size: cover;
+    min-height: 350px;
+}
+.banner-bg2{
+    background: url("../images/Bg_3.png") no-repeat center center;
+    background-size: cover;
+    min-height: 350px;
+}
+.contentcall{
+    height:97px;
+    width: 40%;
+    margin-top: 17%;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    background:rgba(7, 13, 16, 0.5);
+    border:#fff;
+    border: 3px solid #fff;
+    border-radius: 56px;
+}
+.selectcars{
+    font-size: 23px;
+    font-family: 'Robotoslab_B';
+    line-height: 40px;
+}
+.phonecars{
+    font-family: 'Robotoslab_B';
+    font-size: 30px;
+    line-height: 40px;
+}
+.INVENTORY-title{
+    font-size:40px;
+    color:#ff8800;
+    padding:27px 0px;
+    font-family: 'Robotoslab_R';
+}
+.page_content{
+    padding:0px;
+    padding:0px 0px;
+}
+.trucks-title{
+    font-size:23px;
+    color:#313131;
+    text-align:center;
+    font-family: 'Robotoslab_R';
+}
+.filter-title{
+    font-family: 'Robotoslab_R';
+    color:#ff8800;
+    font-size:30px;
+    padding:25px 0px;
+    text-align:center;
+}
+.dropdownserch{
+
+}
+.customserch{
+    width:24.9%;
+    margin-right:0.13%;
+    float: left;
+    font-family: 'NotoSans_R';
+    font-size: 20px;
+    line-height: 37px;
+
+}
+.customserch .btn{
+    width: 100%;
+    border-radius: 0px;
+    padding: 6px 20px;
+    text-align: left;
+    background-color: #ff8800;
+    height: 55px;
+    border: none;
+    background-image: url('../images/Dropdown.png');
+    background-position: 92% 55%;
+    background-repeat: no-repeat;
+}
+.btn-primary.active, .btn-primary:active, .open>.dropdown-toggle.btn-primary,.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover{
+    background-color: #ff8800;
+}
+.customserch .dropdown-menu{
+    width: 100%;
+    border-radius: 0px;
+}
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{
+    /*background-color: #ff8800;
+    color:#fff;*/
+}
+.lastserch{
+    margin-right:0px;
+}
+.inventcarsimg {
+    border-radius: 6px 6px 0 0;
+    width: 100%;
+}
+.p_car_title{
+    font-family: 'NotoSans_R';
+    font-size: 20px;
+    color:#313131;
+    line-height: 25px;
+    display: block;
+}
+.car_id{
+    font-size:15px;
+    font-family: 'NotoSans_I';
+    color:#313131;
+}
+.carintprice{
+    font-size:20px;
+    padding: 12px 0px;
+    color:#ff8800;
+    font-family: 'NotoSans_R';
+}
+.cars_madel{
+    font-size:18px;
+    font-family: 'NotoSans_R';
+    padding-bottom: 15px;
+}
+.car_product{
+    border:1px solid #787f82;
+    padding: 0px;
+    border-radius: 6px;
+    margin-top:40px;
+}
+.car_productdetailpage .car_product{
+    margin-top: 25px;
+}
+.paginationnav .pagination{
+    margin: 50px 0px 77px 0;
+}
+.car_productdetailpage{
+    margin-bottom: 73px;
+}
+.car-content{
+    padding:22px 22px 30px 22px;
+}
+.car-content:hover{
+    cursor: pointer;
+}
+.Vehicle_detail1{
+    background: #ff8800;
+    color: #fff;
+    text-align: center;
+    border-bottom-left-radius: 6px;
+    padding: 11px 0px;
+    font-size:18px;
+    font-family: 'NotoSans_R';
+    cursor:pointer;
+    width: 49%; 
+    display: inline-block;
+}
+.Vehicle_detail1:hover{
+    color:#fff;
+    background:#333;
+}
+.Vehicle_detail2{
+    background: #ff8800;
+    color: #fff;
+    text-align: center;
+    border-bottom-right-radius: 6px;
+    padding: 11px 0px;
+    font-size:18px;
+    font-family: 'NotoSans_R';
+    cursor:pointer;
+    margin-left: -1px;
+    width: 50%; 
+    display: inline-block;
+}
+.Vehicle_detail2:hover{
+    color:#fff;
+    background:#333;
+}
+.text-model{
+    float: left;
+    font-family: "NotoSans_I";
+    font-size: 18px;
+}
+.model_divder{
+    background: #ff8800 none repeat scroll 0 0;
+    float: left;
+    height: 21px;
+    margin: 3px 13px;
+    width: 1px;
+}
+.paginationnav{
+    text-align:right;
+}
+.paginationnav  .pagination li a{
+    height: 50px;
+    width: 50px;
+    margin-right: 3.5px;
+    margin-left: 5px;
+    text-align: center;
+    padding: 6px;
+    border-radius: 4px;
+    color:#000;
+    font-size:25px;
+    font-family: 'NotoSans_R';
+}
+.paginationnav .active a{
+    background: #ff8800;
+    color: #fff !important;
+    border: 1px solid #787f82;
+}
+.Next,.Last{
+    width:90px !important;
+}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{
+    background: #ff8800;
+    color: #fff !important;
+    border: 1px solid #787f82;
+}
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover{
+    background: #ff8800;
+    color: #fff !important;
+    border: 1px solid #787f82;
+}
+.customserch  .dropdown-menu{
+    padding: 0px 0;
+}
+/*************Inventory details Page***************/
+.car_name_Kia{
+    font-family: 'Robotoslab_R';
+    font-size:30px;
+    color:#fff;
+    height:67px;
+    width: 60%;
+    float: left;
+    padding: 11px 11px 11px 19px;
+}
+.car_name_right{
+    font-family: 'Robotoslab_B';
+    font-size: 23px;
+    color: #fff;
+    height: 65px;
+    float: left;
+    width: 40%;
+    padding: 16px 23px 16px 16px;
+    text-align: right;
+}
+.car_name_Detail{
+    font-family: 'Robotoslab_B';
+    font-size:23px;
+    color:#fff;
+    height:67px;
+    background:#ff8800;
+    padding: 16px;
+}
+.panel-8-bg{
+    background:url('../images/Group17.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    float: left;
+}
+.line-1{
+    float: left;
+    width: 5px;
+    background: #fff;
+    height: 39px;
+    margin: 0 11px;
+}
+.Vehicle_td1{
+    width:40%;
+    float:left;
+    padding: 12px 25px;
+    font-size:15px;
+    font-family: 'NotoSans_R';
+}
+.Vehicle_td2{
+    width:60%;
+    float:left;
+    padding: 11px 7px 14px 8px;
+    font-size:14px;
+    color:#515151;
+    font-family: 'NotoSans_B';
+}
+.Vehicle_tab{
+    background:#fff2e3;
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid #fff;
+}
+.car_name_Enquiry {
+    font-family: 'Robotoslab_B';
+    font-size: 23px;
+    color: #fff;
+    height: 65px;
+    background: #ff8800;
+    padding: 14px;
+    float: left;
+    width: 100%;
+    margin-top:30px;
+    cursor:pointer;
+}
+a.car_name_Enquiry:hover {color: #FFF;}
+.getenquiry{
+    color:#515151;
+    font-size:18px;
+    font-family: 'Robotoslab_R';
+    padding: 14px 39px;
+    line-height: 22px;
+}
+.Enquiryhere{
+    padding: 0px 40px 23px 43px;
+}
+.Enquiryhere .form-control{
+    font-family: 'Robotoslab_L';
+    height: 37px;
+    font-size: 18px;
+    font-style: italic;
+    color:#838383;
+}
+.Enquiryhere .H_textarea{
+    height:98px;
+}
+.Submitbtn{
+    font-family: 'Robotoslab_B';
+    width:94%;
+    background:#ff8800;
+    color:#fff;
+    font-size:23px;
+    text-align:center;
+    border:none;
+}
+.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open>.dropdown-toggle.btn-default.focus, .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover,.btn-default:hover{
+    background:#333;
+    color:#fff;
+}
+.product_slider{
+    /*height:610px;*/
+    background:url('../images/sliderbg.png');
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+    margin-bottom: 31px;
+}
+.VEHICLEDESCRIPTION{
+    font-size:18px;
+    font-family: 'Robotoslab_B';
+    padding:17px 0px;
+    border-bottom:3px solid #ff8800;
+}
+.ardescription{
+    font-family: 'Robotoslab_R';
+    font-size:15px;
+    line-height: 30px;
+    color: #515151;
+    margin-top: 16px;
+}
+.free_CarFax{
+    font-size:18px;
+    font-family: 'Robotoslab_B';
+    color:#ff8800;
+    padding: 15px 0px;
+    margin-top: 13px;
+}
+.free_CarFaximg{
+    margin-bottom: 38px;
+}
+.VEHICLEOPTIONS{
+    font-size:18px;
+    font-family: 'Robotoslab_B';
+    padding:18px 0px;
+    border-bottom:3px solid #ff8800;
+    margin-top:54px;
+}
+.list1{
+    font-size:13px;
+    font-family: 'Robotoslab_B';
+    color:#515151;
+    list-style-type: none;
+    margin-top:17px;
+}
+.Packagelist{
+    line-height: 31px;
+}
+.RELATED-title{
+    font-size: 40px;
+    color: #ff8800;
+    padding: 34px 0px 22px 0px;
+    text-align: center;
+    font-family: 'Robotoslab_R';
+}
+.suggestions-title{
+    font-size: 23px;
+    color: #313131;
+    text-align: center;
+    font-family: 'Robotoslab_R';
+}
+.dothpng{
+    margin-right: 10px;
+    margin-top: -2px;
+}
+.locateVehicle{
+    background:#373737;
+    padding:55px;
+}
+.vehicle-looking-title{
+    font-size: 23px;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Robotoslab_R'
+}
+.INVENTORYselect-title {
+    font-size: 35px;
+    color: #ff8800;
+    padding: 30px 0px;
+    text-align: center;
+    font-family: 'Robotoslab_R';
+}
+.Click_locate{
+    font-family: 'Robotoslab_B';
+    font-size: 29px;
+    color: #ffffff;
+    padding: 22px 50px;
+    background: #ff8800;
+    width: 45%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.vehiclehere{
+    text-align:center;
+}
+.bigthmbimg{
+    
+    width: 100%;
+}
+.thmbimg{
+    height:87px ;
+    width: 120px;
+}
+.owl-theme .owl-controls{
+    position: absolute;
+    z-index: 2;
+    display:none;
+}
+.owl-prev{
+    position: absolute;
+    left: 1%;
+    top: 25%;
+}
+.owl-next{
+    position: absolute;
+    right: 1%;
+    top: 25%;
+}
+.about-title{
+    font-size: 40px;
+    color: #ff8800;
+    padding: 38px 0px 24px 0px;
+    font-family: 'Robotoslab_R';
+    text-align:center;
+}
+.indoor-title{
+    font-size: 23px;
+    color: #313131;
+    font-family: 'Robotoslab_R';
+    text-align:center;
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.How_operate{
+    font-family: 'NotoSans_I';
+    font-size:18px;
+    line-height:13px;
+}
+.OUR_MISSION {
+    color: #313131;
+    font-family: "NotoSans_R";
+    font-size: 40px;
+    padding: 2px 0;
+}
+.duble-quotes{
+    float: left;
+    width: 10%;
+    text-align: center;
+}
+.indoor_description {
+    color: #313131;
+    float: left;
+    font-family: "NotoSans_R";
+    font-size: 14px;
+    line-height: 28px;
+    padding-left: 5px;
+    width: 90%;
+}
+.Carloader{
+    text-align:center;
+    padding: 25px 0px;
+}
+.How_operate-2{
+    font-family: 'NotoSans_I';
+    font-size:18px;
+    line-height:37px;
+    text-align:right;
+}
+.OUR_MISSION-2{
+    font-size: 40px;
+    color: #313131;
+    padding: 0px 0px 25px 0px;
+    font-family: 'NotoSans_R';
+    text-align:right;
+}
+.indoor_description-2{
+    text-align:right;
+    float:left;
+    font-family: 'NotoSans_R';
+    font-size: 22px;
+    color: #313131;
+    float: left;
+    width: 90%;
+}
+.indoor_description-1{
+    text-align:right;
+    font-family: 'NotoSans_R';
+    font-size: 18px;
+    color: #313131;
+}
+.FIND_MORE{
+    text-align:right;
+    font-family: 'NotoSans_R';
+    font-size: 15px;
+    color: #ffffff;
+    background:#ff8800;
+    padding: 9px 17px;
+    float:right;
+    margin-top: 20px;
+}
+.Readyget{
+    font-family: 'NotoSans_R';
+    font-size: 30px;
+    color:#ff8800;
+    text-align:center;
+    margin-top:10px;
+}
+.Readyget-1{
+    font-family: 'NotoSans_R';
+    font-size: 30px;
+    color:#ff8800;
+    text-align:center;
+}
+.AccreditedBusiness{
+    text-align:center;
+    margin-top: 10px;
+    margin-bottom: 28px;
+}
+.GreyBg{
+    background:url('../images/GreyBg.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding:50px 0px 80px 0px;
+}
+.imgOptiontochoose,.UnlimitedPossibilities{
+    float:right;
+}
+.Carloader-2{
+    margin-bottom:30px;
+}
+.contact_social  .fb_icons .fa {
+    font-size: 65px !important;
+}
+.CLEVELANDCARS{
+    font-family: 'Robotoslab_R';
+    font-size: 50px;
+    color: #ffffff;
+    text-align:center;
+    margin:0px 0px 65px 0px;
+}
+.CLEVELANDcar-title{
+    font-family: 'NotoSans_R';
+    font-size: 30px;
+    color:#ffffff;
+    text-align:center;
+    line-height:37px;
+}
+.CLEVELANDcar-desc{
+    font-family: 'NotoSans_I';
+    font-size: 15px;
+    color:#ffffff;
+    text-align:center;
+}
+.Iconimg{
+    text-align:center;
+}
+.OPTIONTOCHOOSE{
+    margin-top:30px;
+    /* margin-bottom:30px; */
+}
+.OPTIONTOCHOOSE-title{
+    color:#313131;
+    font-family: 'NotoSans_R';
+    font-size: 18px;
+    padding:0px 0px 20px 0px;
+}
+.OPTIONTOCHOOSE-desc{
+    font-family: 'NotoSans_R';
+    font-size: 15px;
+    color:#313131;
+}
+.OPTIONTOCHOOSEdes{
+    padding-left:0px;
+}
+.OPTION_container{
+    margin-top:35px;
+}
+.UnlimitedPossibilities{
+    margin-top:30px;
+}
+.POSSIBILITIESrow{
+    min-height:160px;
+}
+.customserch .btn{
+    font-size: 20px;
+}
+
+.our-usp-choose-wrap  .container{
+    padding-right: 11px;
+    padding-left: 10px;
+}
+.btn-default.focus, .btn-default:focus {
+    background-color: #333;
+    border-color: #333;
+    color: #fff;
+    outline: none;
+}
+.customserch.open > .dropdown-toggle.btn {
+    background-image: url("../images/Dropdown.png");
+}
+.dropdown-menu>li>a{
+    padding: 7px 20px;
+}
+/*.map-wrap .img-responsive-1{
+    display:none;
+}*/
+.map-wrap .img-responsive{
+    display:block;
+}
+
+@media screen and (min-width: 320px) and (max-width: 667px){
+    /*.map-wrap .img-responsive-1{
+        width:100%;
+        display:block;
+    }
+    .map-wrap .img-responsive{
+        display:none;
+    }*/
+    .customserch {
+        width: 100%;
+        margin-top:15px;
+    }
+    .contentcall{
+        width: 100%;
+        height: 100%; 
+        margin-top: 55%;
+    }
+    .page_content{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .paginationnav .pagination li a {
+        height: 30px;
+        width: 30px;
+        margin-right: 2px;
+        margin-left: 2px;
+        font-size: 15px;
+        padding: 3px;
+    }
+    .Next, .Last {
+        width: 60px !important;
+    }
+    .INVENTORY-title{
+        font-size: 21px;
+        padding: 20px 0px;
+    }
+    .trucks-title {
+        font-size: 15px;
+    }
+    .filter-title {
+        font-size: 22px;
+        padding: 12px 0px;
+    }
+}
+a.dropdownStyle { color: #ff8800; }
+a.notaryBtns { margin-left: 15px; }
+@media screen and (max-width: 767px){ a.notaryBtns { margin-top: 15px; } }

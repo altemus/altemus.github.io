@@ -1,171 +1,604 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-	<link rel="icon" href="/ico/letterS.ico" type="image/x-icon">
-	<title> Sirtowsalot's Website </title>
-	<link rel="stylesheet" href="source/index/buttons_index.css">
-	<script type="text/javascript" src="source/index/buttons_index.js"></script>
-	<button onclick="topFunction()" id="pgupBtn" title="Sends you to the top of this page">Go to top</button>
-	<link rel="stylesheet" href="source/index/main-css.css">
-</head>
-<body>
-<div id="mainBGRND">
-	<div id="pageHead">
-		<div> 
-			<ul class="nav nav-tabs" id="myTab">
-				<li class="right navLi"><a class="tablinks rightMostListItem" onclick="tabBar(event, 'Sitemap')">Sitemap</a></li>
-				<li class="right navLi"><a class="tablinks" onclick="tabBar(event, 'Other')">Other<span class="dot"></span></a></li>
-				<li class="right navLi"><a class="tablinks" onclick="tabBar(event, 'About')">About This Page<span class="dot"></span></a></li>
-				<li class="right navLi active"><a class="tablinks" id="defaultHome" onclick="tabBar(event, 'Home')">Home<span class="dot"></span></a></li>
-				<li class="navLi navBarTitle"><a class="navBarTitle" onclick="window.location.href='https://sirtowsalot.github.io/'"><img src="/ico/letterS.png" width="30" height="30"></a></li>
-				<li class="navLi navBarTitle"><a class="navBarTitle" onclick="window.location.href='https://sirtowsalot.github.io/'">Sirtowsalot's Website</a></li>
-			</ul>
+    <head>
+        <title>Source One Auto Group, LLC - Home</title>
+        <meta name="description" content="Source One Auto Group is a used car dealership located in Schwenksville, PA. Browse our wide selection of quality used cars, trucks, and SUVS for sale!" />
+        <meta name="keywords" content="Source One Auto Group, Used cars for sale, Used Cars Schwenksville, Used Trucks Schwenksville, Used SUVs Schwenksville, Financing in Schwenksville, Schwenksville pre-owned, pre-owned cars for sale, used cars for sale in Schwenksville, auto financing Schwenksville" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="msvalidate.01" content="29D35B4E7D4968AA9FB37A9FA5ACAC63" />
+        <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
+        <link rel="stylesheet" href="css/swipebox.css">
+	<link href="css/index.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/rs.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/responsive.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+	<script type="text/javascript" src="js/head.js"></script>
+        	<meta name="twitter:card" content="summary">
+		<meta name="twitter:site" content="source_one_auto">
+		<meta name="twitter:title" content="Welcome to Source One Auto Group | Used cars for sale in Schwenksville, PA">
+		<meta name="twitter:description" content="Source One Auto Group is a used car dealership located in Schwenksville, PA. Browse our wide selection of quality used cars, trucks, and SUVS for sale!">
+		<meta name="twitter:creator" content="source_one_auto">
+		<meta property="og:title" content="Welcome to Source One Auto Group | Used cars for sale in Schwenksville, PA" />
+		<meta property="og:type" content="article" />
+		<meta property="og:url" content="http://www.sourceoneautogroup.com/" />
+		<meta property="og:description" content="Source One Auto Group is a used car dealership located in Schwenksville, PA. Browse our wide selection of quality used cars, trucks, and SUVS for sale!" /> 
+		<meta property="og:site_name" content="Source One Auto Group" />
+    </head>
+    <body>
+        <div include-html="global/header.html"></div><script>headerHTML();</script>
+	<div id="home" class="banner">
+            <div  class="callbacks_container">
+                <ul class="rslides" id="slider3">
+                    <li>
+                        <div class="banner1">
+                            <div class="container">
+                                <div class="banner-info">
+                                    <h2>WELCOME TO <span>Source One Auto Group</span></h2>
+                                </div>
+                                <div class="bubble-effect text-center">
+                                    <a href="inventory.php" class=" hvr-bubble-float-top">FIND YOUR NEXT CAR NOW</a>
+                                    <a href="financing.php" class=" hvr-bubble-float-top">GET APPROVED TODAY</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="banner2">
+                            <div class="container">
+                                <div class="banner-info">
+                                    <h2>IN NEED OF A TOW? <span>WE CAN HELP</span></h2>
+                                </div>
+                                <div class="bubble-effect text-center">
+                                    <a href="tel:+12155134100" class=" hvr-bubble-float-top">CALL (215) 513-4100</a>
+                                    <a href="towing.php" class=" hvr-bubble-float-top">LEARN MORE</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="banner3">
+                            <div class="container">
+                                <div class="banner-info">
+                                    <h2>WE ALSO DO <span>AUTO TAGS!</span></h2>
+                                </div>
+                                <div class="bubble-effect text-center">
+                                    <a href="tel:+12155134100" class=" hvr-bubble-float-top">CALL (215) 513-4100</a>
+                                    <a href="notary.php" class=" hvr-bubble-float-top">LEARN MORE</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <section class="about-us-wrap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 text-right CORE-1">
+                        <p class="heading">Source One Auto Group</p>
+                        <span class="about-heading">LEARN MORE <br/>ABOUT US</span>
+                    </div>
+                    <div class="col-lg-4 text-center CORE-2">
+                        <div class="quote">Welcome to Source One Auto Group, LLC. We are a family owned used car dealership in Schwenksville whose primary focus is the customer. We have built a reputation on providing courteous and honest service. At Source One Auto Group, we strive to ensure each customer finds the vehicle they want at the price they can afford. Stop by and see why so many others have made Source One Auto Group the place to purchase their vehicles!</div>
+                        <a href="about.php" class="read-more">READ MORE</a>
+                    </div>
+                    <div class="col-lg-4 text-center CORE-3">
+                        <span class="schedule-wrap"><a href="#" data-toggle="modal" data-target="#scheduleAppt" class="schedule-link">SCHEDULE AN APPOINTMENT</a></span>
+                        <!-- MODAL -->
+                        <div class="modal fade text-center" id="scheduleAppt" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+						  <div class="modal-dialog" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">&times;</span>
+						        </button>
+						        <h4 class="modal-title" id="apptLabel">SCHEDULE AN APPOINTMENT</h4>
+						      </div>
+						      <form name="scheduleAppt" id="scheduleAppt" class="scheduleAppt" action="formHandler.php" method="post" onsubmit="return formCheck(this);">
+							      <div class="modal-body">
+							        <p>To schedule an appointment with Source One Auto Group please fill out the form below. After we receive your request, we will contact you to confirm the appointment. For immediate assistance, please call us at (215) 513-4100.</p>
+								        <div class="forms">
+									        <div class="row">
+										        <div class="col-sm-4 formLabel">
+													<label for="name">Name:</label>
+										        </div>
+										        <div class="col-sm-8">
+									        		<input type="text" class="form-control" name="name" id="name" placeholder="Enter your name" required />
+										        </div>
+									        </div>
+									        <div class="row">
+										        <div class="col-sm-4 formLabel">
+													<label for="name">Phone:</label>
+										        </div>
+										        <div class="col-sm-8">
+									        		<input type="text" class="form-control" name="phone" id="phone" placeholder="Enter your phone number" required />
+										        </div>
+									        </div>
+									        <div class="row">
+										        <div class="col-sm-4 formLabel">
+													<label for="name">E-mail:</label>
+										        </div>
+										        <div class="col-sm-8">
+									        		<input type="text" class="form-control" name="email" id="email" placeholder="Enter your e-mail address" required />
+										        </div>
+									        </div>
+									        <div class="row">
+										        <div class="col-sm-4 formLabel">
+													<label for="name"></label>
+										        </div>
+										        <div class="col-sm-8">
+									        		<div class="cs-modal-field">
+							                            <div id="SchedAppointmentRecaptcha"></div>
+							                        </div>
+										        </div>
+									        </div>
+								        </div>
+							      </div>
+							      <div class="modal-footer modal-center">
+							        <button type="submit" class="btn btn-primary Submitbtn" value="schedAppt" name="scheduleAppointment">Schedule Appointment</button>
+							        <script>
+								        $(document).ready(function () {
+										    $("#scheduleAppt").submit(function () {
+										        $(".Submitbtn").attr("disabled", true);
+										        return true;
+										    });
+										});
+									</script>
+									<script>	
+										function formCheck(v){
+										  if(v.name.value == "")
+										  {
+											alert("Please enter your name");
+											return false;
+										  }else if(v.phone.value == "")
+										  {
+											alert("Please enter your phone number");
+											return false;
+										  }else if(v.email.value == "")
+										  {
+											alert("Please enter a e-mail address");
+											return false;
+										  }else{
+										  	v.submit.disabled = true;
+									        v.submit.value = 'Please Wait...';
+										  	return true;
+										  }
+										}
+									</script>
+							      </div>
+						      </form>
+						    </div>
+						  </div>
+						</div>
+						<!-- END MODAL -->
+                        <div class="call-us-text">OR<br/>
+                            CALL US AT<br/>
+                            <p class="num">(215) 513-4100</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row post-detail-wrap">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-left">
+                        <p class="post-img">
+                            <a href="notary.php">
+                                <img class="img-responsive" src="images/notaryServices.jpg" alt="Notary Services" />
+                            </a>
+                        </p>
+                        <h5 class="heading-small">Source One Auto Group is a</h5>
+                        <h4 class="heading-big">Notary Public &amp; Auto Tag Service</h4>
+                        <p class="post-details homepost">Source One Auto Group LLC is your one stop shop for all of your notary public and auto tag needs! Our fully trained, licensed and bonded notaries can handle all of your notarial needs. Affidavits, Acknowledgements, Certificates and more! </p>
+                        <br />
+                        <p><span class="schedule-wrap"><a href="notary.php" class="schedule-link">LEARN MORE</a></span></p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-left">
+                        <p class="post-img">
+                            <a href="financing.php">
+                                <img class="img-responsive" src="images/guaranted_credit_approval.png" alt="Financing at Source One Auto Group" />
+                            </a>
+                        </p>
+                        <h5 class="heading-small">Get Pre-Approved Today</h5>
+                        <h4 class="heading-big">Financing Available!</h4>
+                        <p class="post-details homepost">Are you looking to finance your next vehicle? At Source One Auto Group our credit exports will get you into the vehicle you want at the payment you can afford! To find out how you can get pre-approved for your next loan, please click the button below or call us at (215) 513-4100.</p>
+                        <br />
+                        <p><span class="schedule-wrap"><a href="financing.php" class="schedule-link">GET PRE-APPROVED TODAY</a></span></p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-left">
+                        <p class="post-img">
+                            <a href="trade.php">
+                                <img class="img-responsive" src="images/trade_appraised.png" alt="Get Your Trade Appraised" />
+                            </a>
+                        </p>
+                        <h5 class="heading-small">We Accept Trade-Ins</h5>
+                        <h4 class="heading-big">Get Your Trade Appraised!</h4>
+                        <p class="post-details homepost">At Source One Auto Group, we want to buy your car or truck! Whether you are purchasing a new vehicle or not, we are always willing to write you a check for your vehicle! To find out how much your trade is worth, please click the button below or call us at (215) 513-4100.</p>
+                        <br />
+                        <p><span class="schedule-wrap"><a href="trade.php" class="schedule-link">GET YOUR TRADE APPRAISED</a></span></p>
+                    </div>
+		    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-left">
+                        <p class="post-img">
+                            <a href="crasharchive">
+                                <img class="img-responsive" src="images/crasharchive.jpg" alt="Crash Archive" />
+                            </a>
+                        </p>
+                        <h5 class="heading-small">We have a</h5>
+                        <h4 class="heading-big">Crash Archive!</h4>
+                        <p class="post-details homepost">We have a collection of the Accident Scenes we've participated in! Be it contracted by the State Police or a private Insurance Company contract, they're all here!</p>
+                        <br />
+                        <p><span class="schedule-wrap"><a href="crasharchive" class="schedule-link">CHECK IT OUT</a></span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="browse-cars-wrap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-sm-4 col-md-4 text-right AUDI-4">
+                        <h5 class="heading">SEARCH OUR INVENTORY</h5>
+                        <h2 class="browse-heading">BROWSE CARS BY MAKE</h2>
+                        <p class="quote">Your next car is waiting at Source One Auto Group. Browse from a variety of makes and models for sale in Schwenksville, PA.<br> To speak to a representative, give us a call at (215) 513-4100.
+                        </p>
+                    </div>
+                    <div class="col-md-8 text-left AUDI-8">
+                        <div class="col-lg-12">
+	                                                    <div class="col-md-4 col-sm-2 col-xs-12 text-left">
+	                            <a href="inventory.php?make=AUDI">
+	                                <div class="car-count-wrap">
+	                                    <span class="text-left">AUDI</span>
+	                                    <span class="text-right">1</span>
+	                                </div>
+	                            </a>
+                            </div>
+                                                        <div class="col-md-4 col-sm-2 col-xs-12 text-left">
+	                            <a href="inventory.php?make=BUICK">
+	                                <div class="car-count-wrap">
+	                                    <span class="text-left">BUICK</span>
+	                                    <span class="text-right">1</span>
+	                                </div>
+	                            </a>
+                            </div>
+                                                        <div class="col-md-4 col-sm-2 col-xs-12 text-left">
+	                            <a href="inventory.php?make=CHEVROLET">
+	                                <div class="car-count-wrap">
+	                                    <span class="text-left">CHEVROLET</span>
+	                                    <span class="text-right">2</span>
+	                                </div>
+	                            </a>
+                            </div>
+                                                        <div class="col-md-4 col-sm-2 col-xs-12 text-left">
+	                            <a href="inventory.php?make=DODGE">
+	                                <div class="car-count-wrap">
+	                                    <span class="text-left">DODGE</span>
+	                                    <span class="text-right">1</span>
+	                                </div>
+	                            </a>
+                            </div>
+                                                        <div class="col-md-4 col-sm-2 col-xs-12 text-left">
+	                            <a href="inventory.php?make=FORD">
+	                                <div class="car-count-wrap">
+	                                    <span class="text-left">FORD</span>
+	                                    <span class="text-right">1</span>
+	                                </div>
+	                            </a>
+                            </div>
+                                                        <div class="col-md-4 col-sm-2 col-xs-12 text-left">
+	                            <a href="inventory.php?make=HONDA">
+	                                <div class="car-count-wrap">
+	                                    <span class="text-left">HONDA</span>
+	                                    <span class="text-right">4</span>
+	                                </div>
+	                            </a>
+                            </div>
+                                                        <div class="col-md-4 col-sm-2 col-xs-12 text-left">
+	                            <a href="inventory.php?make=JEEP">
+	                                <div class="car-count-wrap">
+	                                    <span class="text-left">JEEP</span>
+	                                    <span class="text-right">2</span>
+	                                </div>
+	                            </a>
+                            </div>
+                                                        <div class="col-md-4 col-sm-2 col-xs-12 text-left">
+	                            <a href="inventory.php?make=TOYOTA">
+	                                <div class="car-count-wrap">
+	                                    <span class="text-left">TOYOTA</span>
+	                                    <span class="text-right">1</span>
+	                                </div>
+	                            </a>
+                            </div>
+                                                        <div class="col-md-4 col-sm-2 col-xs-12 text-left">
+	                            <a href="inventory.php?make=VOLKSWAGEN">
+	                                <div class="car-count-wrap">
+	                                    <span class="text-left">VOLKSWAGEN</span>
+	                                    <span class="text-right">1</span>
+	                                </div>
+	                            </a>
+                            </div>
+                                                        <div class="col-md-4 col-sm-2 col-xs-12 text-left">
+	                            <a href="inventory.php?make=VOLVO">
+	                                <div class="car-count-wrap">
+	                                    <span class="text-left">VOLVO</span>
+	                                    <span class="text-right">1</span>
+	                                </div>
+	                            </a>
+                            </div>
+                                                    </div>
+                    </div>
+                </div>
+            </div>
+	</section>
+        <section class="home-box-wrap">
+            <div class="container">
+                <div class="">
+                    <div class="pull-left homebox-left">
+                        <h2>Financing Available</h2>
+                        <h4>Financing a vehicle can be stressful, but at Source One Auto Group we make it easy!</h4>
+                        <p>We have been able to provide our customers with quality loans from local and regional banks for many years. Our close relationships with our network of lenders allows us to quickly find competitive rates for your credit situation. Please click the button below to get started.</p>
+                        <span class="schedule-wrap"><a class="schedule-link" href="financing.php">GET PRE-APPROVED TODAY</a></span>
+                    </div>
+                    <div class="pull-right homebox-right">
+                        <h2>Towing Services</h2>
+                        <h4>In need of a tow truck or roadside assistance? Give us a call!</h4>
+                        <p>Whether your car stopped running or refuses to start, went off the road or was involved in an accident, has a flat or is holding your keys hostage, we're here to help you with our 24/7 emergency towing and roadside assistance services! Call Source One Auto Group at (215) 513-4100</p>
+                        <span class="schedule-wrap"><a class="schedule-link" href="towing.php">LEARN MORE</a></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="testimonial-wrap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 text-center">
+                        <h5 class="fadeOrange heading col-lg-12">TESTIMONIALS</h5>
+                        <h2 class="browse-heading col-lg-12">WHAT OUR CUSTOMERS<br/>HAD TO SAY</h2>
+                        <p class="quote col-lg-12">Here is what a few of our customers had to say about their recent experience at <br>Source One Auto Group, LLC</p>
+                    </div>
+                    <div class="col-lg-8 text-left">
+                        <div id="carousel-reviews" class="carousel slide col-lg-12" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <div class="slide">
+                                        <div class="block-text rel zmin">
+                                            <p class="quote">"ABSOLUTELY the most pleasant, helpful, honest place I have ever dealt with!! I would recommend this place for everyone!"</p>
+                                        </div>
+                                        <div class="person-text rel">
+                                            <h4>Michelle Fowler<br/>
+                                                Skippack, Pennsylvania</h4>
+                                        </div>
+                                    </div>
+                                </div>
+				<div class="item">
+			            <div class="slide">
+                                        <div class="block-text rel zmin">
+                                            <p class="quote">"I've been using these guys for years! They do all our our mechanical work and inspections. George and Mel have sold a few cars for us and we have purchased some cars there as well. I'll be heading there today for Mels notary services. Family owned and operated. Support local small business, these guys are the best!!"</p>
+                                        </div>
+                                        <div class="person-text rel">
+                                            <h4>Kim McCabe<br/>
+                                                Ziglersville, Pennsylvania</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="slide">
+                                        <div class="block-text rel zmin">
+                                            <p class="quote">"Honest. Dependable. Fair. George and Melanie run an awesome business here.  I bought a Honda CRV from them a couple months back.  They were flexible in trying to meet my needs and presented me with a very fair deal for the vehicle.  It has since been running wonderfully and has met all of my expectations.  I just brought it in to replace a squeaky serpentine belt and again the pricing was very fair.  Were I not moving out of the area, I'd continue to bring the vehicle here for servicing. Of the many dealers and private parties out there trying to scalp you, this place is not one of them! Bring your auto needs to Source One!  They'll be happy to chat with you and help in any way they can.  And if for nothing else, drop in and say hi to Lila and Everest, the two beautiful Italian Mastiffs that really run the place.  They are such good dogs.  Yes they are."</p>
+                                        </div>
+                                        <div class="person-text rel">
+                                            <h4>Hans Weitzel<br/>
+                                                Pennsylvania</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="slide">
+                                        <div class="block-text rel zmin">
+                                            <p class="quote">"Awesome small business to work with. The owners are life time locals and are the best. I get all of my vehicles serviced and inspected there. I've also purchased 1 vehicle and sold two through their dealership. I couldn't be happier."</p>
+                                        </div>
+                                        <div class="person-text rel">
+                                            <h4>Kim<br/>
+                                                Pennsylvania</h4>
+                                        </div>
+                                    </div>
+                                </div>
+				<div class="item">
+                                    <div class="slide">
+                                        <div class="block-text rel zmin">
+                                            <p class="quote">"Top notch! Took care of my mom so quick.. Called me after done with my mom and took my payment.  I said thanks for going so quick (under 20 minutes) he goes can't have mom stuck in a ditch!  10 STARS!!!!!"</p>
+                                        </div>
+                                        <div class="person-text rel">
+                                            <h4>Scott M<br/>
+                                                Skippack, Pennsylvania</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="slide">
+                                        <div class="block-text rel zmin">
+                                            <p class="quote">"I am sorry it took so long to review!! I bought an Acadia here and there where a couple issues with the air system, which George fixed right away with no additional costs to me. Not only that, but he texted and called to keep me informed on what was going on. He worked endlessly to fix it and they were just the nicest, kindest and honest people I've ever purchased a car from. My husband and I were incredibly impressed and should they have another car we are looking for, we'll definitely go back!! It was well worth the drive!!! Thank you both so so much and hope the pups are doing great!!"</p>
+                                        </div>
+                                        <div class="person-text rel">
+                                            <h4>Kate J.<br/>
+                                                Skippack, Pennsylvania</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="left carousel-control" href="#carousel-reviews" role="button" data-slide="prev">
+                            </a>
+                            <a class="right carousel-control" href="#carousel-reviews" role="button" data-slide="next">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>      
+<footer class="footer">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="contact-info-wrap">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 Carone">
+		    <p class="contact-info">CONTACT US</p>
+                    <p class="help-text">We'll be glad to help</p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 Cartwo">
+                    <h5><img src="images/service_desk.png" alt="Service Desk" />NEED HELP?</h5>
+                    <div class="padding-left">
+                        <p>Give us a call</p>
+                        <p>(215) 513-4100</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 Carthree">
+                    <h5><img src="images/business_hours.png" alt="Business Hours" />BUSINESS HOURS</h5>
+                    <div class="padding-left">
+                        <p>Monday - Friday : 9AM to 5:30PM</p><p>Saturday: 9AM to 1:30PM</p><p>Sunday: Closed</p>                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 Carfour">
+                    <h5><img src="images/location.png" alt="Location" />OUR LOCATION</h5>
+                    <div class="padding-left">
+                        <p>4365 Skippack Pike</p>
+                        <p>Schwenksville, PA 19473</p>
+                    </div>
+                </div>
+            </div>
+            <div class="map-wrap">
+                <div class="img-responsive">
+                    <!--<div class="overlay"></div>-->
+                    <iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1559547.398005919!2d-76.53042485430474!3d40.23150207470643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c699a00c9ecf25%3A0x89641031329cbf81!2s4365+W+Skippack+Pike%2C+Schwenksville%2C+PA+19473!5e0!3m2!1sen!2sus!4v1484710303134' width='600' height='322' frameborder='0' style='border:0' allowfullscreen></iframe>
+                </div>
+				
+            </div>
+            <div class="footer-link-wrapper">
+                <div class="section section-one">
+                    <h5>LINKS</h5>
+                    <ul>
+                        <li><a href="inventory.php">Inventory</a></li>
+                        <li><a href="financing.php">Financing</a></li>
+                        <li><a href="notary.php">Notary</a></li>
+                        <li><a href="towing.php">Towing</a></li>
+                        <li><a href="repairs.php">Repairs</a></li>
+                        <li><a href="contact.php">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="section section-two">
+                    <h5>LATEST TWEETS</h5>
+                    <div id="twitter"><p><span class="status">2009 Volkswagen Tiguan SE 4Motion SUV - 85,119 miles. 2.0L Turbo/Automatic. Clean! Nicely optioned! 215-513-4100 or… <a href="https://t.co/z73ekdnqHu">https://t.co/z73ekdnqHu</a></span><br /><span class="meta"><a href="http://twitter.com/Source_One_Auto/status/1176919409388077056">01:00 PM Sep 25th</a></span></p><p><span class="status">2004 Chevy Silverado 2500HD LS Long Bed - 60,045 miles. 6.0L/Auto/4WD. Great work or plow truck. 215-513-4100 or… <a href="https://t.co/6hdGPpPSf3">https://t.co/6hdGPpPSf3</a></span><br /><span class="meta"><a href="http://twitter.com/Source_One_Auto/status/1176919015102525441">12:58 PM Sep 25th</a></span></p><p><span class="status">2013 Audi A4 Quattro Premium Plus - 95,723 miles. Bang &amp; Olufsen Audio, Loaded! 215-513-4100 or… <a href="https://t.co/6NcQEKWRgh">https://t.co/6NcQEKWRgh</a></span><br /><span class="meta"><a href="http://twitter.com/Source_One_Auto/status/1176918569420021762">12:57 PM Sep 25th</a></span></p></div>                    <!--<p><a href="#">@SelectCarsCLE</a></p>-->
+                </div>
+                <div class="section section-three">
+                    <h5>LATEST CAR ARRIVALS</h5>
+                                        <div class="row b-margin">
+                        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 ">
+                            <a href="vehicle.php?id=163&vehicle=2014-DODGE-GRAND CARAVAN-SE-FOR-SALE-Schwenksville-PA"><img class="img-responsive footerCar" src="https://cdn.frazerphotos.com/49402/49402_258321_9968.jpg" alt="2014 DODGE GRAND CARAVAN SE for sale at Source One Auto Group" /></a>
+                            </div>
+                        <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7 l-padding">
+                            <p class="title">2014 DODGE GRAND CARAVAN SE</p>
+                            <p class="price">$11,995</p>
+                            <p class="view"><a href="vehicle.php?id=163&vehicle=2014-DODGE-GRAND CARAVAN-SE-FOR-SALE-Schwenksville-PA">View Vehicle</a></p>
+                        </div>
+                    </div>
+                                        <div class="row b-margin">
+                        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 ">
+                            <a href="vehicle.php?id=171&vehicle=2012-VOLVO-C70-T5-FOR-SALE-Schwenksville-PA"><img class="img-responsive footerCar" src="https://cdn.frazerphotos.com/49402/49402_124266_10338.jpg" alt="2012 VOLVO C70 T5 for sale at Source One Auto Group" /></a>
+                            </div>
+                        <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7 l-padding">
+                            <p class="title">2012 VOLVO C70 T5</p>
+                            <p class="price">$11,995</p>
+                            <p class="view"><a href="vehicle.php?id=171&vehicle=2012-VOLVO-C70-T5-FOR-SALE-Schwenksville-PA">View Vehicle</a></p>
+                        </div>
+                    </div>
+                                        <div class="row b-margin">
+                        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 ">
+                            <a href="vehicle.php?id=176&vehicle=2007-FORD-MUSTANG GT-PREMIUM-FOR-SALE-Schwenksville-PA"><img class="img-responsive footerCar" src="https://cdn.frazerphotos.com/49402/49402_196014_10581.jpg" alt="2007 FORD MUSTANG GT PREMIUM for sale at Source One Auto Group" /></a>
+                            </div>
+                        <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7 l-padding">
+                            <p class="title">2007 FORD MUSTANG GT PREMIUM</p>
+                            <p class="price">$12,995</p>
+                            <p class="view"><a href="vehicle.php?id=176&vehicle=2007-FORD-MUSTANG GT-PREMIUM-FOR-SALE-Schwenksville-PA">View Vehicle</a></p>
+                        </div>
+                    </div>
+                                </div>
+              <div class="copy_right">
+                  <p> Copyright &copy; 2019 <a href="https://altemus.github.io/ethan.png" target="_blank">George Altemus</a> | 
+                  <a href="termsConditions.php" target="_blank">Terms &amp; Conditions</a> | 
+                  <a href="pdf/privacyPolicy.pdf" target="_blank">Privacy Policy</a> |
+                  <a href="http://github.com/altemus/altemus.github.io/" target="_blank">Git</a>
+                  </p>
+                  <div class="footer_right social-icon-wrap">
+                      <ul class="fb_icons">
+                          <li><a class="fb" href="https://www.facebook.com/sourceoneautogroup" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                          <li><a class="twit" href="https://twitter.com/source_one_auto" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                          <li><a class="ig" href="https://www.instagram.com/sourceoneautogroup/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                      </ul>
+                  </div>
+              </div>
+        </div>
 		</div>
-	</div>
-	<div class="tab-content" id="mainFGRND">
-		<div id="Home" class="tabcontent tab-pane active">
-			<div id="Clock">
-				<center><iframe src="source/clock/clock.html" scrolling="no"></iframe>
-				<script>iFrameResize({log:true})</script></center>
-				<h2> #HHMMSS; Hour, Hour, Minute, Minute, Second, Second </h2>
-			</div
-			<hr class="head">
-			<h2>This is a simple website for anything I feel I may want to archive, or store. Feel free to have a look.</h2>
-		</div>
-		<div id="Sitemap" class="tabcontent tab-pane">
-			<ul class="map-title" style="list-style-type:none">
-				<li>Sub-sites:</li>
-				<ul class="map-body" style="list-style-type:disc">
-					<li>School Work</li>
-					<ol type="1">
-						<li><a href="school/8th/htmlquiz">HTML Quiz</a></li>
-						<li><a href="school/8th/recipe">Recipe</a></li>
-						<li><a href="school/8th/form">Form</a></li>
-						<li><a href="school/8th/dropdownmenus">Drop-down Menus</a></li>
-						<li><a href="school/7th/scrugrams/gingerale">Scrugram's Gingerale</a></li>
-						<ul class="map-body" type="I">
-							<li><a href="school/7th/scrugrams/sub/aboutus">About Us</a></li>
-							<li><a href="school/7th/scrugrams/sub/products">Products</a></li>
-							<li><a href="school/7th/scrugrams/sub/buynow">Buy Now ("Thank you for purchasing" page)</a></li>
-						</ul>
-						<li><a href="school/7th/larz_example">Larzalere's Example "Eagles" Website</a></li>
-						<li><a href="school/7th/tours">Tours</a></li>
-						<li><a href="school/7th/PaPARKS">PA. PARKS</a></li>
-					</ol>
-					<li>Games</li>
-					<ol type="1">
-						<li><a href="games/tetris">Tetris</a></li>
-					</ol>
-				</ul>
-				<li>UNFINISHED DIRECTORIES</li>
-				<ul class="map-body" style="list-style-type:disc">
-					<li>Diesel</li>
-					<ol type="1">
-						<li><a href="diesel/smokey">Smokey</a></li>
-					</ol>
-					<li> Intriguing Disasters</li>
-					<ol type="1">
-						<li><a href="disasters">Disasters HUB</a></li>
-					</ol>
-				</ul>
-			</ul>
-			<ul class="map-title" style="list-style-type:none">
-				<li>Other Stuff:</li>
-				<ul class="map-body" style="list-style-type:disc">
-					<li><a href="personal/hamilton">Hamilton Musical</a></li>
-					<li><a href="source">Github Source</a></li>
-					<li><a target="blank_" href="file:///C:/Users/Altemus/Documents/GitHub/Sirtowsalot.github.io/index.html">Link for my laptop. This will be a 404 page for you.</a></li>
-				</ul>
-			</ul>
-		</div> 
-		<div id="About" class="tabcontent tab-pane">
-			<h3>You don't fucking need to know anything about me or my sexy fucking website. <br>Thank You.</h3>
-		</div>
-		<div id="Other" class="tabcontent">
-			<h3>Well hello there! This is a good time to tell you about the lack of a secret on this page! It's totally not a button hidden on this page as a background color! pffft. Nope. You should just click back to where you came from!</h3>
-		</div>
-		<script>
-			function tabBar(evt, Name) {
-				var i, tabcontent, tablinks;
-					tabcontent = document.getElementsByClassName("tabcontent");
-				for (i = 0; i < tabcontent.length; i++) {
-					tabcontent[i].style.display = "none";
-				}
-				tablinks = document.getElementsByClassName("tablinks");
-				for (i = 0; i < tablinks.length; i++) {
-				tablinks[i].className = tablinks[i].className.replace(" active", "");
-				}
-				document.getElementById(Name).style.display = "block";
-				evt.currentTarget.className += " active";
-			}
-				document.getElementById("defaultHome").click();
+    </div>
+</footer>
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/move-top.js"></script>
+        <script type="text/javascript" src="js/easing.js"></script>
+        <script type="text/javascript">
+            jQuery(document).ready(function ($) {
+                $(".scroll").click(function (event) {
+                    event.preventDefault();
+                    $('html,body').animate({scrollTop: $(this.hash).offset().top}, 1000);
+                });
+            });
+        </script>
+        <script src="js/wow.min.js"></script>
+        <script>
+            new WOW().init();
+        </script>
+        <script src="js/responsiveslides.min.js"></script>
+        <script type="text/javascript">
+            jQuery(window).scroll(function () {
+                if ($(window).scrollTop() >= 330) {
+                    jQuery('.header-top').addClass('fixed');
+                    jQuery('.mainLogo').addClass('smallLogo');
+                } else {
+                    jQuery('.header-top').removeClass('fixed');
+                    jQuery('.mainLogo').removeClass('smallLogo');
+                }
+            });
+            $('#success').delay(5000).fadeOut(700);
+        </script>
+                <script>
+            // You can also use "$(window).load(function() {"
+            $(function () {
+                // Slideshow 4
+                $("#slider3").responsiveSlides({
+                    auto: true,
+                    pager: false,
+                    nav: true,
+                    speed: 500,
+                    timeout: 5500,
+                    namespace: "callbacks"
+                });
+            });
+        </script>
+                        <script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+		
+		  ga('create', 'UA-90318447-4', 'auto');
+		  ga('send', 'pageview');
+		</script>
+		
+						<script type="text/javascript">
+		    var CaptchaCallback = function() {
+			    		    			    	grecaptcha.render('SchedAppointmentRecaptcha', {'sitekey' : '6LfnxRAUAAAAAGcBR1ddh69jSu3rsLw_UVHy7YHS'});
+		    			    			    			    			    			    				};
+			
 			
 		</script>
-		<br><br><br>
-		<div class="footer">
-			<table id="footer" align="center">
-				<tr class="caption">
-					<td><button class="collapsible">Contact Us</button>
-					<div class="content">
-						<p><b>Phone:</b> Yeah.. You're not getting that.</p>
-						<p><b>Address:</b> Yeah.. That either.</p>
-						<p><b>Email:</b> mrtowsson@gmail.com</p>
-					</div>
-					</td>
-
-					<td><button class="collapsible">Legalities</button>
-					<div class="content">
-						<p class="legalinfo"><a href="legal/termsofuse">Terms Of Use</a></p>
-						<p class="legalinfo"><a href="legal/privacypolicy">Privacy Policy</a></p>
-						<p class="legalinfo"><a href="legal/disclaimer">Disclaimer</a></p>
-					</div>
-					</td>
-
-					<td><button class="collapsible">Our Box of Fun Things...</button>
-					<div class="content">
-						<p><a href="games/tetris">Tetris</a></p>
-						<p><a href="personal/cats">Random Cat Picture</a></p>
-						<p><a href="https://www.ebay.com/sch/i.html?_odkw=Clorox+Bleach&_osacat=0&_from=R40&_trksid=p2045573.m570.l1313.TR5.TRC1.A0.H0.TRS0&_nkw=Clorox+Bleach&_sacat=0">Bottle Of Bleach For Sale Near You</a></p>
-					</div>
-					</td>
-				</tr>
-			</table>
-		</div>
-	</div>
-</div>
-<script>
-var coll = document.getElementsByClassName("collapsible");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("activefooter");
-    var content = this.nextElementSibling;
-    if (content.style.maxHeight){
-      content.style.maxHeight = null;
-    } else {
-      content.style.maxHeight = content.scrollHeight + "px";
-    } 
-  });
-}
-</script>
-<script>
-$('#myTab a').click(function (e) {
-    e.preventDefault();
-    $(this).tab('show');
-});
-
-// store the currently selected tab in the hash value
-$("ul.nav-tabs > li > a").on("shown.bs.tab", function (e) {
-    var id = $(e.target).attr("href").substr(1);
-    $.cookie('activeTab', id);
-});
-
-    // on load of the page: switch to the currently selected tab
-    var hash = $.cookie('activeTab');
-    if (hash != null) {
-        $('#myTab a[href="#' + hash + '"]').tab('show');
-    }
-</script>
-</body>
+		<script src='https://www.google.com/recaptcha/api.js?onload=CaptchaCallback&render=explicit' async defer></script>
+    </body>
 </html>
