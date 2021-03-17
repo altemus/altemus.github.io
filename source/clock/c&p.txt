@@ -1,2 +1,0 @@
-  <center><iframe src="source/clock/clock.html" scrolling="no"></iframe>
-  <script>iFrameResize({log:true})</script></center>
