@@ -1,15 +1,9 @@
 .container{
     padding-left:0px;
     padding-right:0px;
-    text-align: center;
 }
 .banner-bg1 {
     background: url("../images/Bg_2.png") no-repeat center center;
-    background-size: cover;
-    min-height: 350px;
-}
-.banner-crash {
-    background: url("../images/crash_banner.jpg") no-repeat center center;
     background-size: cover;
     min-height: 350px;
 }
