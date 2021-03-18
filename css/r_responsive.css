@@ -1,0 +1,482 @@
+@media screen and (min-width: 320px) and (max-width: 667px){
+.Selectcar1{
+		width:100%;
+	}
+	.section.section-one,.section.section-two,.section.section-three{
+		    width: 100%;
+			padding:15px;
+	}
+	.contact-info-wrap .col-xs-6{
+		width:100%;  
+		margin-bottom: 15px;
+	}
+	.footer-link-wrapper{
+		padding: 20px 15px 0px;
+	}
+	.crediteapp-wrap {
+		padding: 15px 15px;
+	}
+	.credite-title {
+		font-size: 22px;
+	}
+	.personalinfo .panel-heading{
+		font-size: 18px;
+	}
+	.personalinfo .add-co-app{
+		 font-size: 15px;
+	}
+	.personalinfo .submitapp{
+		 font-size: 22px;
+	}
+	.personalinfo .caret{
+		margin-top: 7px;
+	}
+	.about-title{
+		font-size: 22px;
+		padding: 0px 0px;
+	}
+	.indoor-title{
+		width: 100%;
+		padding: 25px 0px;
+		font-size: 18px;
+	}
+	.OUR_MISSION{
+		font-size: 22px;
+	}
+	.dubblequotes{
+		width:100%;
+	}
+	.indoor_description{
+		padding-left: 6px;
+	}
+	.OUR_MISSION-2{
+		font-size: 22px;
+	}
+	.indoor_description-1{
+		font-size: 15px;
+	}
+	.indoor_description-2{
+		font-size: 18px;
+	}
+	.FIND_MORE{
+		margin-bottom: 15px;
+	}
+	.Readyget{
+		font-size: 22px;
+		margin-top: 30px;
+	}
+	.Readyget-1{
+		font-size: 22px;
+	}
+	.AccreditedBusiness{
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+	.CLEVELANDCARS{
+		font-size: 30px;
+		margin: 0px 0px 20px 1px;
+	}
+	.Iconimg{
+		margin-top:30px;
+	}
+	.OPTIONTOCHOOSE{
+			margin:0px;
+	}
+	.POSSIBILITIESrow{
+		margin-top:20px;
+	}
+	.OPTIONTOCHOOSE-title{
+		padding: 10px 0px 10px 0px;
+	}
+	.imgOptiontochoose{
+			margin-top:30px;
+	}
+	.getInrouchform h2{
+		font-size: 32px;
+		line-height:40px;
+	}
+	.getInrouchform {
+		padding: 30px 0;
+	}
+	.getInrouchform p{
+		padding-bottom: 25px;
+		padding-top: 25px;
+	}
+	.social-icon-getsocial .fb_icons li{
+		margin: 0 15px !important;
+	}
+	.browse-getSocial{
+		padding: 50px 0 80px 0;
+	}
+	.getsocial-heading{
+		font-size: 35px;
+		line-height: 40px;
+	}
+	.link-wrap{
+		width:100%;
+		text-align:center;
+	}
+	.navbar-default .navbar-collapse{
+		background:#ddd;
+	}
+	.social-icon-wrap{
+		width:100%;
+		text-align:center;
+	}
+	.social-icon-wrap ul{
+		float: none;
+	}
+	.link-wrap .navbar-nav{
+		width:100%;
+		margin: 0px 0px 0;
+	}
+	.link-wrap .navbar-nav li{
+		margin:0px;
+		/* padding:17px 0px; */
+		background:#ff8800 ;
+	}
+	.link-wrap .navbar-nav li:hover{
+		color:fff !important;
+		background:#333;
+	}
+	.activeli{
+		background:#333 !important;
+		color:#fff !important;
+	}
+	.header_right{
+		margin-bottom:0px;
+		margin-top:0px;
+	}
+	.navbar-collapse  .fb_icons li{
+		background:#ff8800 ;
+		color:#fff !important;
+	}
+	.navbar-collapse .fb_icons li:hover{
+		background:#333 !important;
+	}
+	.car_name_Kia{
+		font-size: 15px;
+		width: 50%;
+		height: 45px;
+	}
+	.car_name_right{
+		width: 50%;
+		font-size: 10px;
+		height: 45px;
+	}
+	.product_slider .item{
+		height:auto !important;
+	}
+	.list1 {
+		font-size: 12px;
+		margin-top: 0px;
+	}
+	.VEHICLEOPTIONS{
+		margin-bottom:15px;
+	}
+	.vehicle-looking-title {
+		font-size: 16px;
+	}
+	.INVENTORYselect-title {
+		font-size: 18px;
+	}
+	.Click_locate{
+		font-size: 16px;
+		padding: 15px 0px;
+		width: 100%;
+	}
+	.RELATED-title {
+		font-size: 30px;
+		padding: 25px 0px;
+	}
+	.suggestions-title {
+		font-size: 16px;
+	}
+	.social-icon-getsocial .gmailicon li .fa{
+		background:none;
+	}
+	.banner-info > h2{
+		font-size: 14px;
+	}
+	.banner-info{
+		width:100%;
+		margin: 7em auto 0;
+		padding: 23px 12px 20px;
+	}
+	.bubble-effect {
+		margin-top: 10px;
+	}
+	.hvr-bubble-float-top{
+		margin-bottom: 16px;
+	}
+	.callbacks_nav {
+		height: 40px;
+		margin-top: 20px;
+		top: 62%;
+		width: 50px;
+	}
+	.callbacks_nav.next,.callbacks_nav.next:hover{
+		right: 15px;
+		background-size: 100% 100%;
+	}
+	a.callbacks_nav.callbacks1_nav.prev,a.callbacks_nav.callbacks1_nav.prev:hover{
+		background-size: 100% 100%;
+		left: 15px;
+	}
+	.contact-info-wrap .Carthree  img,.contact-info-wrap .Cartwo img{
+		margin-left: 5px;
+	}
+	.Carfour .padding-left,.Carthree .padding-left{
+		padding-left: 76px;
+	}
+	.container {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.about-us-wrap .call-us-text{
+	    clear: both;
+		font-size: 23px;
+		line-height: 29px;
+	}
+	.about-us-wrap{
+		padding: 30px 0 30px;
+	}
+	.about-us-wrap .about-heading{
+		    font-size: 23px;
+			line-height: 30px;
+	}
+	.about-us-wrap .call-us-text p.num{
+		font-size: 30px;
+		line-height: 35px;
+	}
+	.about-us-wrap .post-detail-wrap{
+		padding: 10px 0;
+	}
+	.post-detail-wrap .post-img{
+		margin-top:15px;
+	}
+	.browse-cars-wrap{
+		padding: 30px 0 30px;
+	}
+	.browse-cars-wrap h2.browse-heading{
+		font-size: 25px;
+		margin-bottom: 10px;
+	}
+	.browse-cars-wrap .quote{
+		background:rgba(0, 0, 0, 0) url("../images/white_quote.png") no-repeat scroll 22px 15px / 28px 21px;
+	}
+	.browse-cars-wrap{
+		height:auto;
+	}
+	.our-usp-choose-wrap{
+		padding: 20px 0 30px;
+	}
+	.our-usp-choose-wrap .pull-right{
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+	.carousel-inner .item .slide{
+		width:100%;
+	}
+	.testimonial-wrap{
+		height:auto;
+	}
+	.slide:last-child{
+		    margin-left: 0px;
+	}
+	.carousel-control.left {
+		left: -10px;	
+	}
+	.carousel-control.right {
+		right: -10px;
+	}
+	.homebox-left,.homebox-right{
+		width:100%;
+	}
+	.homebox-left,.homebox-right{
+		padding: 20px 30px 20px;
+		margin-top: 15px;
+	}
+	.home-box-wrap h2{
+		font-size: 26px;
+		margin-bottom: 15px;
+	}
+	.home-box-wrap h4{
+		font-size: 13px;
+		margin-bottom: 15px;
+	}
+	.home-box-wrap p{
+		font-size: 17px;
+		line-height: 24px;
+		margin-bottom: 15px;
+		height: auto;
+		min-height: auto;
+	}
+	.home-box-wrap .schedule-link{
+		font-size: 15px;
+		padding: 12px 10px;
+	}
+	.home-box-wrap{
+		padding: 30px 0;
+	}
+	.nav-wil li a{
+			padding:17px 35% !important;
+	}
+	.fb_icons li{
+		    margin: 0 0px !important;
+	}
+	
+}
+
+
+@media screen and (min-width: 480px) and (max-width: 667px) and (orientation : landscape){
+	   .contentcall {
+			width: 60%;
+			margin-top: 30%;
+		}
+		.banner-info{
+			margin: 9em auto 0;
+		}
+		img{margin:0 auto}
+		.add_left ul li, .copy_right p,.copy_right p a{
+			    font-size: 13px;
+		}
+		.copy_right{
+			padding: 30px 15px 30px 15px;
+		}
+		.about-title {
+			font-size: 22px;
+			padding: 20px 0px;
+		}
+		.OPTIONTOCHOOSE  .imgOptiontochoose ,.OPTIONTOCHOOSE  .UnlimitedPossibilities{
+			width:45%;
+			float:left;
+			 margin-right: 2.5%;
+			 margin-left: 2.5%;
+		}
+		
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+	   .product_slider .item{
+		height:auto !important;
+	}
+	.nav-wil li a {
+		font-size: 10px;
+	}
+	.social-icon-wrap{
+		    width: 12%;
+	}
+	.contentcall{
+		    width: 50%;
+			margin-top: 25%;
+	}
+	.INVENTORY-title {
+		font-size: 24px;
+		padding: 15px 0px;
+	}
+	.trucks-title {
+		font-size: 17px;
+	}
+	.filter-title{
+		font-size: 23px;
+		padding: 10px 0px;
+	}
+	.customserch .btn{
+		font-size: 12px;
+	}
+	.car_product{
+		width:50%;
+		margin:40px auto;
+	}
+	.paginationnav .pagination {
+		margin: 0px 0px 10px 0;
+	}
+	.paginationnav .pagination li a {
+		height: 30px;
+		width: 30px;
+		padding: 2px;
+		font-size: 16px;
+	}
+	.Next, .Last {
+		width: 70px !important;
+	}
+	.help-text{
+		padding-left: 10px;
+	}
+	.contact-info{
+		padding-left: 10px;
+		font-size: 24px;
+	}
+	.contact-info-wrap h5{
+		    font-size: 14px;
+	}
+	.contact-info-wrap img{
+		    margin-left: 5px;
+	}
+	.padding-left{
+		    padding-left: 15px;
+			font-size: 10px;
+	}
+	.Carthree .padding-left {
+		padding-left: 15px;
+	}
+	.Carfour .padding-left{
+		padding-left: 15px;
+	}
+	.help-text{
+		    font-size: 15px;
+	}
+	.section.section-one{
+		padding-left: 15px;
+		width: 30%;
+	}
+	.section.section-two {
+		padding-left: 15px;
+		width: 30%;
+	}
+	.section.section-three {
+		padding-left: 15px;
+		width: 38%;
+		padding-right: 10px;
+	}
+	.browse-cars-wrap{
+		height:auto;
+	}
+	.our-usp-choose-wrap .about-heading{
+		    float: right;
+			width: 100%;
+	}
+	.our-usp-choose-wrap .col-lg-4.text-right img{
+		margin-bottom:30px;
+	}
+	.usp-wrap{
+		margin: 40px auto;
+		clear: both;
+	}
+	.our-usp-choose-wrap .img_div{
+		    text-align: center;
+			width: 50%;
+			margin: 0 auto;
+	}
+	
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation : landscape){
+	.car_product {
+		width: 100%;
+	}
+}
+/*514*667*/
+@media screen and (max-width: 514px){
+	  .contentcall{
+		  margin-top:32%;
+	  }
+	  .about-title {
+			padding: 20px 0px;
+		}
+		.banner-info{
+			margin: 11em auto 0;
+		}
+		.about-us-wrap .schedule-wrap {
+			margin: 30px 0;
+		}
+}
